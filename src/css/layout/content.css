@@ -1,0 +1,171 @@
+@import url(../base/common.css);
+
+.content {
+    width: 100%;
+    height: calc(100vh - 56px);
+    padding: 24px 24px 0px 24px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.content__header {
+    width: 100%;
+    height: 64px;
+    padding-bottom: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.content__header--title {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Notosan-bold;
+}
+
+.content__page {
+    width: 100%;
+    max-height: calc(100% - 64px);
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+}
+
+.content__page--toolbar {
+    width: 100%;
+    height: 64px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    box-sizing: border-box;
+}
+
+.search-bar {
+    width: 240px;
+    padding-right: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.input-search {
+    width: 260px;
+    font-style: italic;
+}
+
+.ic-search {
+    margin-left: -28px;
+    width: 20px;
+    height: 20px;
+    background: url('../../assets/imgs/Sprites.64af8f61.svg') no-repeat -33px -1664px;
+}
+
+.ic-reload {
+    width: 24px;
+    height: 24px;
+    background: url('../../assets/imgs/Sprites.64af8f61.svg') no-repeat -424px -201px;
+}
+
+.ic-reload:hover {
+    cursor: pointer;
+    background: url('../../assets/imgs/Sprites.64af8f61.svg') no-repeat -1096px -88px;
+}
+
+.ic-excel {
+    margin-left: 16px;
+    width: 24px;
+    height: 24px;
+    background: url('../../assets/imgs/Sprites.64af8f61.svg') no-repeat -705px -200px;
+}
+
+.ic-excel:hover {
+    cursor: pointer;
+    background: url('../../assets/imgs/Sprites.64af8f61.svg') no-repeat -1265px -88px;
+}
+
+.content__page--body {
+    width: 100%;
+    max-height: calc(100% - 64px);
+    padding: 0px 24px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.body__table {
+    width: 100%;
+    max-height: calc(100% - 64px);
+    overflow: auto;
+}
+
+.row-control {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.row-control__edit {
+    width: 24px;
+    padding-right: 16px;
+    vertical-align: middle;
+    font-family: Notosan-bold;
+    color: blue;
+    cursor: pointer;
+}
+
+.row-control__more {
+    width: 16px;
+    height: 16px;
+    background: url('../../assets/imgs/Sprites.64af8f61.svg') no-repeat -896px -359px;
+    cursor: pointer;
+}
+
+.body__paging {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.body__paging--right {
+    display: flex;
+    align-items: center;
+}
+
+.paging-input {
+    display: flex;
+    align-items: center;
+}
+
+.icon-more {
+    width: 32px;
+    height: 32px;
+    margin-left: -32px;
+    background: url('../../assets/imgs/Sprites.64af8f61.svg') no-repeat -360px -351px;
+}
+
+.paging-control {
+    display: flex;
+    align-items: center;
+    padding-right: 16px;
+}
+
+.paging-number {
+    width: 16px;
+    height: 16px;
+    color: black;
+    border: 1px solid #dedede;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-control {
+    padding: 8px;
+    color: #999999;
+}

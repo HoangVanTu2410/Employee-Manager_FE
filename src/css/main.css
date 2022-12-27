@@ -1,0 +1,49 @@
+@import url(./base/common.css);
+@import url(./base/button.css);
+@import url(./base/dropdownlist.css);
+@import url(./base/popup.css);
+@import url(./base/dialog.css);
+@import url(./base/input.css);
+@import url(./base/table.css);
+@import url(./layout/content.css);
+
+body {
+    margin: 0;
+    font-size: 13px;
+    font-family: Notosan-regular;
+}
+
+.container {
+    display: flex;
+    background-color: #E7F5EC;
+    box-sizing: border-box;
+}
+
+.main {
+    width: calc(100vw - 200px);
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #CEEAD9;
+    border-radius: 16px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #b9b8b8;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+}
+
+.row--selected {
+    background-color: #9CD5B3;
+}

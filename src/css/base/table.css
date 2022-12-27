@@ -1,0 +1,87 @@
+@import url(common.css);
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+
+table tbody tr:hover td {
+    background-color: #E7F5EC;
+}
+
+
+table th,table td {
+    border-bottom: 1px solid #c7c7c7;
+    border-spacing: 0;
+    padding: 0px 16px;
+    vertical-align: middle;
+    text-align: left;
+    box-sizing: border-box;
+}
+
+table tr {
+    height: 48px;
+}
+
+table th {
+    font-family: Notosan-semibold;
+    border-right: 1px solid #c7c7c7;
+    background-color: #CEEAD9;
+    position: sticky;
+    top: 0;
+}
+
+table td {
+    background-color: #FFFFFF;
+    border-right: 1px dotted #c7c7c7;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 250px;
+}
+
+table thead th:first-child,
+table tbody td:first-child {
+    position: sticky;
+    left: 0;
+}
+
+table thead th:last-child,
+table tbody td:last-child {
+    border-left: 1px solid #c7c7c7;
+    border-right: none;
+    position: sticky;
+    right: 0;
+}
+
+table thead th:first-child, 
+table thead th:last-child {
+    z-index: 1;
+}
+
+.col-40 {
+    min-width: 40px;
+    width: 40px;
+}
+
+.col-120 {
+    min-width: 120px;
+    width: 120px;
+    max-width: 120px;
+}
+
+.col-150 {
+    min-width: 150px;
+    width: 150px;
+}
+
+.col-250 {
+    min-width: 250px;
+    width: 250px;
+}
+
+.col-text-center {
+    text-align: center;
+    vertical-align: middle;
+}

@@ -1,0 +1,38 @@
+
+@import url(common.css);
+
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: #000000c9;
+}
+.loading__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.loading__icon {
+    width: 36px;
+    height: 36px;
+    animation: spinner 2s infinite ease;
+}
+
+@keyframes spinner {
+    to {
+        transform: rotate(360deg);
+    }
+}
+.loading__text {
+    color: #FFFFFF;
+    padding-top: 8px;
+    font-family: Notosan-bold;
+}

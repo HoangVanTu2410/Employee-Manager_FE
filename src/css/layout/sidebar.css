@@ -1,0 +1,128 @@
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    background-color: #021E0D;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sidebar-header {
+    width: 200px;
+    height: 56px;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.sidebar__toggle {
+    width: 24px;
+    height: 24px;
+    background: url('../../assets/imgs/Sprites.64af8f61.svg') no-repeat -424px -88px;
+}
+
+.sidebar__logo {
+    width: 96px;
+    height: 32px;
+    padding-left: 16px;
+    background-repeat: no-repeat;
+}
+
+.sidebar-list-item {
+    width: 200px;
+    height: calc(100vh - 56px);
+    padding: 20px 12px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.sidebar-item {
+    width: 100%;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.sidebar-item+.sidebar-item {
+    padding-top: 4px;
+}
+
+.sidebar-item:hover {
+    background-color: #033C1A;
+}
+
+.sidebar-item__selected {
+    background-color: #055B27;
+}
+
+.sidebar-item__icon {
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 24px;
+    height: 24px;
+}
+
+.ic-overview {
+    background: url('../../assets/imgs/Sprites.64af8f61.svg') no-repeat -29px -1585px;
+}
+
+.ic-cash {
+    background: url('../../assets/imgs/Sprites.64af8f61.svg') no-repeat -74px -1585px;
+}
+
+.ic-bank {
+    background: url('../../assets/imgs/Sprites.64af8f61.svg') no-repeat -117px -1587px;
+}
+
+.ic-bag {
+    background: url('../../assets/imgs/Sprites.64af8f61.svg') no-repeat -161px -1585px;
+}
+
+.ic-cart {
+    background: url('../../assets/imgs/Sprites.64af8f61.svg') no-repeat -205px -1584px;
+}
+
+.ic-bill {
+    background: url('../../assets/imgs/Sprites.64af8f61.svg') no-repeat -250px -1585px;
+}
+
+.ic-stock {
+    background: url('../../assets/imgs/Sprites.64af8f61.svg') no-repeat -290px -1585px;
+}
+
+.ic-tool {
+    background: url('../../assets/imgs/Sprites.64af8f61.svg') no-repeat -335px -1586px;
+}
+
+.ic-asset {
+    background: url('../../assets/imgs/Sprites.64af8f61.svg') no-repeat -378px -1585px;
+}
+
+.ic-tax {
+    background: url('../../assets/imgs/Sprites.64af8f61.svg') no-repeat -423px -1587px;
+}
+
+.ic-price {
+    background: url('../../assets/imgs/Sprites.64af8f61.svg') no-repeat -467px -1586px;
+}
+
+.ic-general {
+    background: url('../../assets/imgs/Sprites.64af8f61.svg') no-repeat -510px -1586px;
+}
+
+.ic-budget {
+    background: url('../../assets/imgs/Sprites.64af8f61.svg') no-repeat -423px -1660px;
+}
+
+.ic-report {
+    background: url('../../assets/imgs/Sprites.64af8f61.svg') no-repeat -548px -1589px;
+}
+
+.ic-finance {
+    background: url('../../assets/imgs/Sprites.64af8f61.svg') no-repeat -248px -1662px;
+}
